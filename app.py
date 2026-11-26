@@ -4,7 +4,7 @@ app = Flask(__name__)
 app.json.ensure_ascii = False
 
 COLIS = {
-    "GT-1001": {"client": "SOTELGAB", "statut": "En transit", "ville": "Libreville"},
+    "GT-1001": {"client": "SOTELGAB", "statut": "En transit", "ville": "Libreville", "poids": "120 kg"},
     "GT-1002": {"client": "TRANSGABON FRET", "statut": "Livré", "ville": "Port-Gentil"},
 }
 
