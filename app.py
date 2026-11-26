@@ -18,7 +18,7 @@ def health():
 def get_colis(ref):
     colis = COLIS.get(ref)
     if colis is None:
-        return jsonify(erreur="Colis introuvable", reference=ref), 404
+       return jsonify(erreur="Colis introuvable dans le système", reference=ref), 404
     return jsonify(reference=ref, **colis)
 
 
